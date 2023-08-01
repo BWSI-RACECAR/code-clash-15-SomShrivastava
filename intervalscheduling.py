@@ -49,8 +49,8 @@ class Solution:
         for i in range(1, len(new_array)):
             if new_array[i][1] >= last_value and new_array[i][0] > last_value_1:
                 result.append(new_array[i])
-                last_value = new_array[i][1]
-                last_value_1 = new_array[i][0]
+                last_value = new_array[i][0]
+                last_value_1 = new_array[i][1]
         return result
                 
                 
